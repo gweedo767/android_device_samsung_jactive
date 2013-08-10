@@ -1,4 +1,4 @@
-# Copyright (C) 2011 The Android Open Source Project
+# Copyright (C) 2013 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -24,12 +24,12 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-# Inherit from jfltetmo device
-$(call inherit-product, device/samsung/jfltexx/device.mk)
+# Inherit from device
+$(call inherit-product, device/samsung/jactive/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_jfltexx
-PRODUCT_DEVICE := jfltexx
+PRODUCT_NAME := full_jactive
+PRODUCT_DEVICE := jactive
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := GT-I9505
+PRODUCT_MODEL := GT-I9295

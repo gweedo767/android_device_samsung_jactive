@@ -24,10 +24,10 @@
 -include device/samsung/jf-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
--include vendor/samsung/jfltexx/BoardConfigVendor.mk
+-include vendor/samsung/jactive/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := jflte,jfltexx,i9505,GT-I9505,jgedlte,i9505g,GT-I9505G
+TARGET_OTA_ASSERT_DEVICE := jactive,i9295,GT-I9295,jflte,jfltexx,i9505,GT-I9505,jgedlte,i9505g,GT-I9505G
 
 # Kernel
-TARGET_KERNEL_CONFIG         := jf_eur_defconfig
+TARGET_KERNEL_CONFIG := jactive_eur_defconfig
