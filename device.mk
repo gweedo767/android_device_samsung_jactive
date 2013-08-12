@@ -22,3 +22,7 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/jf-common/overlay-gsm
 
 # Inherit from jf-common
 $(call inherit-product, device/samsung/jf-common/jf-common.mk)
+
+PRODUCT_COPY_FILES += \
+        device/samsung/jactive/fstab.jactive:root/fstab.qcom
+
