@@ -27,7 +27,7 @@
 -include vendor/samsung/jactive/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := jactive,i9295,GT-I9295,jactiveltexx,jflte,jfltexx,i9505,GT-I9505,jgedlte,i9505g,GT-I9505G
+TARGET_OTA_ASSERT_DEVICE := jactive,i9295,GT-I9295,jactiveltexx,jactivelte
 
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogen_jf_defconfig
